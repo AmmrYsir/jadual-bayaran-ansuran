@@ -1,7 +1,7 @@
 import type { Component } from 'solid-js';
 import { createSignal } from 'solid-js';
 
-import './NumberInput.css';
+import './CurrencyInput.css';
 
 function formatCurrency(input: string): string {
 	let cleaned = input.replace(/[^\d.]/g, "");
@@ -14,7 +14,7 @@ function formatCurrency(input: string): string {
 		: intWithCommas;
 }
 
-export default function NumberInput() {
+export default function CurrencyInput() {
     const [value, setValue] = createSignal("");
     
 	function handleInput(e: Event) {
