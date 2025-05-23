@@ -23,11 +23,11 @@ export default function CurrencyInput() {
 	}
 
     return (
-		<div class="input-wrapper">
-			<label for="currencyInput" class="input-label">Pilih Tarikh Mula</label>
-			<div class="currency-input-container">
-				<span class="currency-prefix">RM</span>
-				<input id="currencyInput" type="text" class="currency-input" value={value()} onInput={handleInput} placeholder="0.00"/>
+		<div class="currency-input-wrapper">
+			<label for="!" class="currency-label">Jumlah Mula Ansuran</label>
+			<div class="currency-input-row">
+				<span class="currency-input-prefix">$</span>
+				<input type="text" id="!" class="currency-input"/>
 			</div>
 		</div>
 	);
