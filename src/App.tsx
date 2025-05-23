@@ -5,12 +5,12 @@ import AppHeader from './components/AppHeader';
 import AppBody from './components/AppBody';
 
 const App: Component = () => {
-  return (
-    <div class="app">
-		<AppHeader />
-		<AppBody />
-    </div>
-  );
+  	return (
+		<div class="app">
+			<AppHeader />
+			<AppBody />
+		</div>
+	);
 };
 
 export default App;
