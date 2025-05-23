@@ -1,30 +1,22 @@
-/* Container */
-.modern-date-wrapper {
+.date-input-wrapper {
 	display: flex;
 	flex-direction: column;
-	max-width: 320px;
-	width: 100%;
+	height: 2rem;
+	background-color: #282c34;
+	padding: .5rem;
+	border-radius: 8px;
 }
 
-/* Label above the input */
 .date-label {
-	font-size: 1rem;
-	color: #444;
-	font-weight: 500;
+	font-size: .75rem;
+	color: white;
+	font-weight: bold;
 }
 
-/* Modern styled date input */
 .date-input {
-    padding: .5rem;
-    font-size: .85rem;
-	border: 1px solid #ccc;
-	transition: border-color 0.3s ease, box-shadow 0.3s ease;
-	background-color: white;
-	color: #333;
-}
-
-.date-input:focus {
-	border-color: #007bff;
-	box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+	border: 0;
+	color-scheme: dark;
+	background-color: #282c34;
 	outline: none;
+	color: white;
 }
