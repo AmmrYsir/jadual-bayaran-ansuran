@@ -6,6 +6,7 @@ import { ChevronDownIcon, ChevronUpIcon } from 'lucide-solid';
 
 // component
 import DateTimeInput from './DateTimeInput';
+import NumberInput from './NumberInput';
 
 import { createSignal } from 'solid-js';
 
@@ -17,6 +18,7 @@ const AppHeader: Component = () => {
 		<div class={`app-header ${isOpen() ? "open" : ""}`}>
 			<div class="app-header-section">
 				<DateTimeInput />
+				<NumberInput />
 			</div>
 			<button class="toggle-button" onClick={toggleDrawer}>
 				{isOpen() ? <ChevronUpIcon />: <ChevronDownIcon/>}
