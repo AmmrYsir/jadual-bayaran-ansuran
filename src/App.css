@@ -1,6 +1,12 @@
 .app {
-  height: 100%;
-  display: grid;
-  grid-template-rows: max-content 1fr;
+  	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
+@media screen and (min-width: 768px) {
+	.app {
+		display: grid;
+		grid-template-rows: max-content 1fr;
+	}
+}
