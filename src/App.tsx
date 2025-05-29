@@ -5,7 +5,7 @@ import AppHeader from './components/AppHeader';
 import AppBody from './components/AppBody';
 
 const App: Component = () => {
-  	return (
+	return (
 		<div class="app">
 			<AppHeader />
 			<AppBody />
